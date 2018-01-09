@@ -4,7 +4,12 @@
 
 a, b = 0, 1
 storage = 0
+# FIbonacci sequence using multiple assignent:
+# https://stackoverflow.com/a/18009977/9185666
 while b < 4000000:
+    # Multiple assignment, atomic version of:
+    # a = b
+    # b = a + b
     a, b = b, a+b
     if (b%2 == 0):
         storage += b
