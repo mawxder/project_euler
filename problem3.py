@@ -20,6 +20,6 @@ for x in range(2, number+1):
 for i in primeList:
     if number % i == 0:
         primeFactorList.append(i)
-        
-# Print largest prime factor of number
+
+# Print largest prime factor of 'number'
 print(max(primeFactorList))
